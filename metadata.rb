@@ -3,7 +3,6 @@ maintainer_email "rtd@i-x.net"
 license          "Apache 2.0"
 name             "likewise"
 description      "Installs and configures Likewise Open"
-long_description IO.read(File.join(File.dirname(__FILE__), 'README.rdoc'))
 version          "0.3.0"
 supports         "debian"
 supports         "ubuntu"
