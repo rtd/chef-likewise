@@ -51,4 +51,5 @@ Usage
 =====
 
 Admin credentials with permission to join the domain are stored in an encrypted data bag.  By default it
-will look for the "likewise_admin" item in the "passwords" data bag.
+will look for the "likewise_admin" item in the "passwords" data bag.  Currently, registry settings are
+not idempotent due to challenges parsing the registry export format.
