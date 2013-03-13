@@ -21,6 +21,7 @@ default[:likewise][:registry_settings]
 
 Hash of Likewise registry settings, for example:
 
+```json
 {
   "UserDomainPrefix": {
     "registry_key": "[HKEY_THIS_MACHINE\\Services\\lsass\\Parameters\\Providers\\ActiveDirectory\\]",
@@ -46,6 +47,7 @@ Hash of Likewise registry settings, for example:
     ]
   }
 }
+```
 
 Usage
 =====
